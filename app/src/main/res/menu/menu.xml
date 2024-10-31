@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@id/blankFragment"
+
+        android:title="list_title" />
+    <item
+        android:id="@+id/blankFragment3"
+
+        android:title="statistics_title" />
+
+
+
+</menu>
