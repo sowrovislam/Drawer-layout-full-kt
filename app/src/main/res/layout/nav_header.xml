@@ -1,31 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#B0B0B0"
-    android:gravity="bottom"
     android:orientation="vertical"
-    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    android:padding="16dp">
 
-    <!-- Background Image -->
     <ImageView
-        android:id="@+id/image"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_gravity="center"
-        android:src="@drawable/img_1" />
+        android:id="@+id/headerImageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/img_1"
+        android:contentDescription="@string/app_name" />
 
-    <!-- Text View for Title or Description -->
     <TextView
-        android:id="@+id/text"
+        android:id="@+id/headerTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal|top"
-        android:layout_marginTop="30dp"
-        android:text="Sowrov !"
+        android:text="Welcome User"
+        android:textSize="18sp"
         android:textColor="#000000"
-        android:textSize="33sp"
-        android:textStyle="bold" />
+        android:paddingTop="8dp" />
 
-
-</FrameLayout>
+</LinearLayout>
